@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def K_v(v, x, n_terms=100):
     if x == 0:
-        return np.inf  # K_v(0) é infinito para v >= 0
+        return np.inf 
     sum_kv = 0
     for n in range(n_terms):
         term = ((-1)**n) * (x/2)**(2*n + v) / (np.prod(np.arange(1, n + 1)) * np.prod(np.arange(1, n + v + 1)))
