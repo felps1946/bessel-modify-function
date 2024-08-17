@@ -29,7 +29,5 @@ plt.ylim(0, 10)
 plt.legend()
 plt.grid()
 
-
-# Exibindo os gráficos
 plt.tight_layout()
 plt.show()
